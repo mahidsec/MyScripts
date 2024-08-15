@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo ntfsfix /dev/sda3
+sudo ntfsfix /dev/sda4
+sudo ntfsfix /dev/sda6
+
+echo "\n\n\nDONE! If fix doesn't seemed to be applied then simply unmount and remount the drives...... \n\n if not! then you need a reboot in life :)"
